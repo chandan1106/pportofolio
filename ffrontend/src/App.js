@@ -3,6 +3,7 @@ import HomeScreen from './screen/HomeScreen';
 import ProductScreen from './screens/productScreen';
 import {BrowserRouter, Route, Link} from 'react-router-dom'; 
 import data from './data';
+import cartscreen from './reducer';
 
 function App() {
   const openMenu = () =>{
